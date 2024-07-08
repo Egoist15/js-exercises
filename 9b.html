@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>DOM Practices</title>
+    </head>
+    <body>
+      <button onclick="
+        heads();
+        ">HEADS</button>
+      <p class="js-heads"></p>
+      <button onclick="
+        tails();
+      ">TAILS</button>
+      <p class="js-tails"></p>
+        <script>
+         function heads() {
+          document.querySelector('.js-heads').innerHTML = 'You chose: HEADS!'
+        } 
+        
+        function tails() {
+          document.querySelector('.js-tails').innerHTML = 'You chose: TAILS!'
+        }
+        </script>
+    </body>
+</html>
